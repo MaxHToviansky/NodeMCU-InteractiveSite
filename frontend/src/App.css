@@ -1,6 +1,33 @@
 #root {
-  max-width: 1280px;
+  max-width: 100vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+
+.ButtonDiv{
+  align-items: center;
+}
+button{
+  margin: 1vw;
+  width: 5vw;
+  height: 5vh;
+  font-size: 1vw;
+}
+#ledInfoOn{
+  width: 20vw;
+  height: 10vh;
+  margin: auto;
+  background-color: green; 
+  display: table-cell;
+  vertical-align: middle;
+}
+#ledInfoOff{
+  width: 20vw;
+  height: 10vh;
+  margin: auto;
+  background-color: gray; 
+  display: table-cell;
+  vertical-align: middle;
+}
+
