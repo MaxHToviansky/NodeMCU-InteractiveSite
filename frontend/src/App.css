@@ -19,15 +19,16 @@ button{
   height: 10vh;
   margin: auto;
   background-color: green; 
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
 }
 #ledInfoOff{
   width: 20vw;
   height: 10vh;
   margin: auto;
   background-color: gray; 
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
